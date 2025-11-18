@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>3 áreas de la gestión de memoria | Sistemas Operativos y Redes </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Nashely AngeletH Azuero Roman" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+<body class="exe-web-site" id="exe-node-17"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Sistemas Operativos y Redes</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Portada</a></li>
+   <li><a href="objetivo.html" class="no-ch">Objetivo</a></li>
+   <li class="current-page-parent"><a href="men.html" class="current-page-parent daddy">Menú</a>
+   <ul>
+      <li><a href="tema_1_concepto_y_tipos_de_sistema_operativo.html" class="daddy">TEMA 1: CONCEPTO Y TIPOS DE SISTEMA OPERATIVO</a>
+      <ul class="other-section">
+         <li><a href="caractersticas.html" class="no-ch">Características</a></li>
+         <li><a href="tipos_de_sistemas_operativos.html" class="no-ch">Tipos de sistemas operativos</a></li>
+         <li><a href="actividad.html" class="no-ch">Actividad</a></li>
+         <li><a href="evaluacin.html" class="no-ch">Evaluación</a></li>
+      </ul>
+      </li>
+      <li class="current-page-parent"><a href="tema_2_gestin_de_recursos_del_computador.html" class="current-page-parent daddy">TEMA 2: GESTIÓN DE RECURSOS DEL COMPUTADOR</a>
+      <ul>
+         <li><a href="gestin_de_la_memoria.html" class="no-ch">Gestión de la memoria</a></li>
+         <li id="active"><a href="3_reas_de_la_gestin_de_memoria.html" class="active no-ch">3 áreas de la gestión de memoria</a></li>
+         <li><a href="actividad_1.html" class="no-ch">Actividad 1</a></li>
+         <li><a href="actividad_2.html" class="no-ch">Actividad 2</a></li>
+         <li><a href="evaluacin0.html" class="no-ch">Evaluación</a></li>
+      </ul>
+      </li>
+      <li><a href="tema_3_proteccin_y_manejo_de_informacin.html" class="daddy">TEMA 3: PROTECCIÓN Y MANEJO DE INFORMACIÓN</a>
+      <ul class="other-section">
+         <li><a href="proteccin_del_sistema.html" class="no-ch">Protección del sistema</a></li>
+         <li><a href="actividad0.html" class="no-ch">Actividad</a></li>
+         <li><a href="evaluacin1.html" class="no-ch">Evaluación</a></li>
+      </ul>
+      </li>
+      <li><a href="evaluacin_final.html" class="no-ch">Evaluación Final</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="gestin_de_la_memoria.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="actividad_1.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">3 áreas de la gestión de memoria</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id58">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">¿Cuáles son las 3 áreas de la gestión de memoria?</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta58_127_2" class="block iDevice_content">
+<div class="exe-text"><p>La gestión de memoria opera en tres niveles: hardware, sistema operativo y programa/aplicación. Las capacidades de gestión en cada nivel trabajan conjuntamente para optimizar la disponibilidad y la eficiencia de la memoria.</p>
+<p><strong>1. Administración de memoria a nivel de hardware: </strong>A nivel de hardware, la administración de memoria se centra en los componentes físicos que almacenan datos , como los chips de memoria de acceso aleatorio ( RAM ) y las memorias caché de la CPU ( L1, L2 y L3 ). La mayor parte de la administración a nivel físico la realiza la unidad de administración de memoria ( MMU ), que controla las operaciones de memoria y caché del procesador . Una de las funciones más importantes de la MMU es traducir las direcciones lógicas utilizadas por los procesos en ejecución a las direcciones físicas en los dispositivos de memoria. La MMU suele estar integrada en el procesador, aunque también puede implementarse como un circuito integrado independiente.</p>
+<p><strong>2. Administración de memoria a nivel de sistema operativo:</strong> A nivel de sistema operativo, la administración de memoria implica la asignación (y reasignación constante) de bloques de memoria específicos a procesos y programas individuales según las necesidades de recursos de la CPU. Para gestionar este proceso de asignación, el sistema operativo mueve continuamente los procesos entre la memoria y los dispositivos de almacenamiento ( disco duro o SSD ), a la vez que realiza un seguimiento de cada ubicación de memoria y su estado de asignación.</p>
+<p>El sistema operativo también determina qué procesos obtendrán recursos de memoria y cuándo se les asignarán dichos recursos. Como parte de esta operación, un sistema operativo puede utilizar el intercambio de memoria (swap ), un método para mover información entre la memoria principal y la secundaria para dar cabida a más procesos.</p>
+<p>El sistema operativo también se encarga de gestionar los procesos cuando el ordenador se queda sin memoria física. En ese caso, recurre a la memoria virtual, un tipo de pseudomemoria asignada desde una unidad de almacenamiento configurada para emular la memoria principal del ordenador. Si la demanda de memoria supera la capacidad de la memoria física, el sistema operativo puede asignar automáticamente memoria virtual a un proceso, igual que lo haría con la memoria física. Sin embargo, el uso de memoria virtual puede afectar al rendimiento de las aplicaciones, ya que el almacenamiento secundario es mucho más lento que la memoria principal del ordenador.</p>
+<p><strong>3. Administración de memoria a nivel de programa/aplicación:</strong> La administración de memoria a este nivel se implementa durante el proceso de desarrollo de la aplicación y la controla la propia aplicación, en lugar de ser administrada centralmente por el sistema operativo o la MMU. Este tipo de administración de memoria garantiza la disponibilidad de memoria suficiente para los objetos y estructuras de datos del programa . Esto se logra mediante lo siguiente:</p>
+<ul>
+<li><strong>Asignación de memoria:</strong> Cuando un programa solicita memoria para un objeto o estructura de datos, esta se asigna a dicho componente de forma manual o automática. Si la asignación es manual, el desarrollador debe programarla explícitamente en el código. Si el proceso es automático, un administrador de memoria se encarga de la asignación, utilizando un componente llamado asignador para asignar la memoria necesaria al objeto. El asignador puede emplear diversas técnicas para asignar bloques de memoria bajo demanda: el método de primer ajuste , en el que asigna el primer bloque libre con el tamaño suficiente para la solicitud; el sistema de bloques contiguos , en el que solo asigna bloques de memoria de ciertos tamaños; o el uso de subasignadores , que asignan pequeños bloques de memoria a una aplicación a partir de un bloque mayor recibido del administrador de memoria del sistema. El administrador de memoria puede estar integrado en el lenguaje de programación o disponible como un módulo independiente.</li>
+<li><strong>Reciclaje:</strong> Cuando un programa ya no necesita el espacio de memoria que se le ha asignado, este se libera y se reasigna (es decir, se recicla). Esta tarea puede realizarla manualmente el programador o automáticamente el administrador de memoria, un proceso que suele denominarse recolección de basura.</li>
+</ul>
+<p><strong>Referencias Bibliográficas</strong></p>
+<p>Awati, R., y Sheldon, R. (2024, 10 diciembre).  ¿Qué es la gestión de memoria en un entorno informático? WhatIs. <a href="https://www.techtarget.com/whatis/definition/memory-management">https://www.techtarget.com/whatis/definition/memory-management</a> </p>
+<p><a href="gestin_de_la_memoria.html"><img src="ChatGPT_Image_17_nov_2025_2C_21_10_47hh.png" width="152" height="72" alt="" style="float: left;" /></a><a href="actividad_1.html"><img src="ChatGPT_Image_17_nov_2025_2C_21_10_47.png" width="173" height="69" alt="" style="float: right;" /></a></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense">
+<p>Creative Commons – Reconocimiento – Compartir Igual 4.0</p>
+</div></section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="gestin_de_la_memoria.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="actividad_1.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_style_js.js"></script></body></html>
